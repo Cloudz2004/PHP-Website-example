@@ -1,0 +1,185 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #3d3d3d;
+    scroll-behavior: smooth;
+}
+#navigationBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: left;
+    background-color: #222222;
+}
+#navigationBar a {
+    position: relative;
+    padding: 8px 18px;
+    left: 1cm;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: #434242;
+    transition: 0.1s;
+}
+#navigationBar #profileInfo {
+    padding: 8px 30px;
+    background-color: #434242;
+    color: white;
+    font-size: 17px;
+    /* top: -2px; */
+    margin: 8px;
+    right: 1cm;
+    position: absolute;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+#profileInfo:hover {
+    text-shadow: 0px 0px 10px #5448C8;
+    /* background-color: #c84848; */
+    /* background-color: #c84848; */
+    /* color: red; */
+
+}
+#navigationBar a:hover {
+    background-color: #5448C8;
+}
+
+
+
+/*  about me */
+#about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    background-color: #2e2e2e;
+    margin-top: 1cm;
+    margin: 40px;
+    padding: 25px 10px;
+}
+#about .p_info {
+    color: #5448C8;
+}
+#about h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 23px;
+}
+#about .Exp_title {
+    text-align: center;
+    color: white;
+}
+.my_info {
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    padding: 10px;
+    /* width: 30cm; */
+    margin: 10px;
+    margin-top: 1cm;
+}
+#about .p_info {
+    text-align: left;
+    left: 0.1cm;
+    font-size: 18px;
+    padding: 2px;
+    position: relative;
+}
+
+/* contact */
+#contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    background-color: #2e2e2e;
+    margin-top: 1cm;
+    margin: 40px;
+    padding: 25px 10px;
+}
+#contact h1 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+#contact p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: absolute; */
+    margin: 30px;
+    padding: 20px;
+    /* border: 2px solid white; */
+}
+#contact_email {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    width: 6cm;
+    height: 1cm;
+}
+#contact_fill {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    border: none;
+    width: 12cm;
+    height: 3.5cm;
+    touch-action: none;
+    /* user-zoom: fixed; */
+    font-size: 15px;
+    text-align: left;
+}
+#submit_contact {
+    color: #5448C8;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 4cm;
+    height: 1cm;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.636);
+}
+#submit_contact:hover {
+    background-color: #6464644b;
+}
+#myChart {
+    width: 1cm;
+    height: 1cm;
+}
+
+
+
+#stats {
+    background-color: #2e2e2e;
+    position: relative;
+    display: flex;
+    margin-top: 1cm;
+    margin: 40px;
+    padding: 25px 10px;
+}
+#myChart {
+    width: 1cm;
+    height: 12cm;
+}
